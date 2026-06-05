@@ -15,7 +15,7 @@ class SuperAdminSeeder extends Seeder
             ['email' => 'admin@cbt.com'],
             [
                 'name' => 'Super Administrator',
-                'password' => Hash::make('admin123'),
+                'password' => Hash::make('admin@cbt55555'),
                 'role' => 'super_admin',
             ]
         );
