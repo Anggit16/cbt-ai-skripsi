@@ -514,7 +514,7 @@
 <!-- Footer -->
 <footer class="footer">
     <div class="container">
-        <p class="mb-0">&copy; 2024 CBT System - Computer Based Test Platform. All rights reserved.</p>
+        <p class="mb-0">&copy; 2026 CBT System - Computer Based Test Platform. All rights reserved.</p>
         <div class="mt-2">
             <a href="#" class="text-white-50 text-decoration-none me-3">Tentang</a>
             <a href="#" class="text-white-50 text-decoration-none me-3">Kebijakan Privasi</a>

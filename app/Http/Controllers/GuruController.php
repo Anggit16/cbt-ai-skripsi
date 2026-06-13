@@ -612,7 +612,7 @@ public function createQuestions($examId)
         $sheet->getStyle('A1')->getFont()->getColor()->setARGB('FFFFFFFF');
 
         // ========== BARIS PETUNJUK ==========
-        $sheet->setCellValue('A3', '📌 PETUNJUK PENGISIAN:');
+        $sheet->setCellValue('A3', '📌 PETUNJUK PENGISIAN: (KUNCI JAWABAN ESAY: HINDARI PENYEBUTAN SATU PER SATU KATA CONTOH [Karnivora, Omnivora, Herbivora])');
         $sheet->mergeCells('A3:I3');
         $sheet->getStyle('A3')->getFont()->setBold(true);
 
@@ -702,8 +702,8 @@ public function createQuestions($examId)
                 '', '', '', '', '', 'Pemrograman berorientasi objek adalah paradigma pemrograman yang menggunakan objek dan kelas'
             ],
             [
-                'essay', 'Sebutkan dan jelaskan 3 prinsip utama dalam OOP!', '25',
-                '', '', '', '', '', 'Enkapsulasi, Pewarisan, Polimorfisme'
+                'essay', 'Apa yang dimaksud dengan Puisi?', '25',
+                '', '', '', '', '', 'Puisi adalah karya sastra yang mengungkapkan perasaan pikiran atau imajinasi penyair dengan bahasa yang indah dan penuh makna'
             ]
         ];
 
